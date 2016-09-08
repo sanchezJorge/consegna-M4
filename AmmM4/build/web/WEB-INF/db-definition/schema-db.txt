@@ -1,0 +1,23 @@
+CLIENTE (Id*, Nombre, Apellido , Username, Password, Saldo) 
+
+VENDEDORES (Id*, Nombre, Apellido , Username, Password, Saldo, Feedback) 
+
+PRODUCTO (Id*, Nombre, Descripcion, Foto, Disponibilidad, Precio,Id_Vendedor**)
+
+
+
+
+-------Relazione--------
+
+
+Relazione UNO A MOLTI da VENDITORE a PRODOTTO
+
+
+
+----Chiavi------
+
+
+*  Chiave Primaria
+
+** Chiave Esterna
+-------------------
