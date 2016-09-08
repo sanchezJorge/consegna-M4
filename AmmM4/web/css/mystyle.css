@@ -1,0 +1,124 @@
+body{
+    font-size: 15px;
+    font-family: Comics sans, Arial, sans-serif;
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url(../img/fondo.jpg);
+    
+}
+h1{
+    font-family: "Times New Roman";
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h2{
+    font-family: "Times New Roman";
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h3{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+table{
+    margin:auto;
+    text-align: center;
+    color:black;
+    background-color:white;
+}
+
+.encabezado{
+    background-color: darkslategray;
+    color:white;
+}
+
+header{
+    border-bottom: 5px solid #165964;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    background-image: url(../img/encabezado.png);
+ 
+    background-position: center;
+    background-repeat: repeat-x;
+    color:midnightblue;
+    font-weight: bold;
+    height: 200px;
+    position: static;
+}
+
+label{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+form{
+    
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+input#precio , input#nombre, input#url{
+    width: 300px; 
+}
+
+input[type=submit], [type=reset] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #165964;
+    background-color: blue;
+    color: yellowgreen;
+}
+
+
+nav#navegacion{
+    margin:auto;
+    float:left;
+    padding-left:10px;
+    background-color:dodgerblue;
+}
+div#link{
+    margin:auto;
+    float:right;
+    background-color:dodgerblue;
+}
+
+div.contenido{
+    margin:auto;
+    margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+    border-bottom:5px solid #165964;
+    border-left:  5px solid #165964;
+    border-right: 5px solid #165964;
+    background-color:black;
+    background-image: url(../img/fondo.jpg);
+    color: white;
+}
+
+   div.web{
+    width: 80%;
+    margin: auto;
+    border: 5px solid #165964;
+    background-color:dodgerblue;
+    
+    }
+hr {
+  background-color: #165964; 
+  border-color:#165964;
+  height: 5px;
+}
